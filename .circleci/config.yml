@@ -10,9 +10,9 @@ jobs:
           fingerprints:
             - "f6:a3:a2:0a:f2:8d:3d:8b:59:60:58:3b:a7:ce:f0:02"
       - run:
-        name: Install dependencies
-        command: |
-          apk add --update ansible # install the dependencies needed for your playbook
+          name: Install dependencies
+          command: |
+            apk add --update ansible # install the dependencies needed for your playbook
       - run:
           name: Configure server
           command: |
